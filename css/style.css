@@ -7,7 +7,7 @@ body {
     background-color: #1B1C30;
 }
 
-/************************************page Home******************************************/
+/*******************************************PAGE HOME ***********************************************/
 /******************************* header ****************************************/
 header {
     display: flex;
@@ -45,9 +45,6 @@ header nav ul li a {
     text-decoration: none;
 }
 
-header nav ul li a span {
-    color: #ffffff;
-}
 
 
 header button {
@@ -218,4 +215,100 @@ header button a {
 
 }
 
-/****************************************PAGE ABOUT***********************************************/
+/****************************************PAGE EVENTS***********************************************/
+/**** section hero event *****/
+.hero_events {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.img_hero_events {
+    width: 700px;
+    height: 600px;
+}
+
+.titre_hero_events {
+    width: 570px;
+    height: 540px;
+}
+
+.titre_hero_events h5 {
+    color: #C23893;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: medium;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.titre_hero_events h1 {
+    color: #ffffff;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+
+.icon_hero_events {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.titre_hero_events p {
+    color: #767799;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/***************************main events*******************************/
+.main_events {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titre_main_events {
+    width: 619px;
+    height: 445px;
+}
+
+.titre_main_events h1 {
+    width: 617px;
+    color: #ffffff;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.titre_main_events p {
+    color: #767799;
+    font-family: "inter";
+    font-size: 18px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.titre_main_events button {
+    width: 213px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: #ffffff;
+    font-family: "inter";
+    font-size: 21px;
+}
+
+.img_main_events {
+    width: 512px;
+    height: 440px;
+}
