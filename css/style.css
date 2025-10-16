@@ -7,6 +7,7 @@ body {
     background-color: #1B1C30;
 }
 
+/************************************page Home******************************************/
 /******************************* header ****************************************/
 header {
     display: flex;
@@ -106,7 +107,7 @@ header button a {
     color: #9F9A9A;
     position: relative;
     top: 10px;
-    left: -40px;
+    left: -70px;
 }
 
 .DivExplore button {
@@ -122,6 +123,99 @@ header button a {
     height: 100%;
     position: relative;
     right: -80px;
+    top: 40px;
 
 }
+
 /************************* sction main******************************/
+/****les logo partners****/
+.partners {
+    position: relative;
+    top: 80px;
+    background-color: #162446;
+
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partners img {
+    width: auto;
+    height: 35px;
+}
+
+/*****text dans main******/
+.titre_main {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre_main h1 {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.titre_main p {
+    width: 726px;
+    color: #767799;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+/*****les trois divs dans main****/
+.tree_main {
+    height: 500px;
+    position: relative;
+    top: 200px;
+    width: 100%;
+    border: 5px solide #ffffff;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tree_main div {
+    width: 344px;
+    height: 427px;
+    border: 2px solid #C23893;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.tree_main div span {
+    color: #ffffff;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: lighter;
+    margin-left: -250px;
+}
+
+.tree_main div h2 {
+    color: #ffffff;
+    font-size: 33px;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: bold;
+    width: 70%;
+}
+
+.tree_main div p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    width: 80%;
+
+}
+
+/****************************************PAGE ABOUT***********************************************/
