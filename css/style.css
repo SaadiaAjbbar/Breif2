@@ -312,3 +312,126 @@ header button a {
     width: 512px;
     height: 440px;
 }
+
+/***************************PAGE SERVICES********************************/
+/*******section hero services********/
+.hero_section_services {
+    margin-top: 20px;
+}
+
+.titre_hero_services {
+    text-align: center;
+}
+
+.titre_hero_services h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.titre_hero_services p {
+    margin-top: 15px;
+    color: #767799;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.divs_hero_services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+
+.divs_hero_services div {
+    padding-top: 20px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.divs_hero_services .div2,
+.divs_hero_services .div1,
+.divs_hero_services .div3 {
+    border-bottom: 1px solid #C23893;
+}
+
+.divs_hero_services .div2,
+.divs_hero_services .div5 {
+    border-right: 1px solid #C23893;
+    border-left: 1px solid #C23893;
+}
+
+.divs_hero_services div span {
+    font-size: 21px;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+
+.divs_hero_services p {
+    width: 330px;
+    color: #767799;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*******section main services********/
+.main_services {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_main_services {
+    width: 500px;
+}
+
+.titre_main_services {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 584px;
+    gap: 20px;
+}
+
+.titre_main_services h5 {
+    color: #962F79;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.titre_main_services h1 {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.titre_main_services p {
+    color: #767799;
+    font-family: "Inter", sans-serif;
+    width: 584px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.titre_main_services button {
+    width: 213px;
+    height: 65px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 21px;
+}
