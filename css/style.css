@@ -14,7 +14,6 @@ header {
     justify-content: space-around;
     margin-left: 24px;
     margin-right: 24px;
-
 }
 
 
@@ -435,3 +434,125 @@ header button a {
     font-family: "Inter", sans-serif;
     font-size: 21px;
 }
+
+/************************************PAGE ABOUT***********************************************/
+/*****************hero about*************/
+.hero_about {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    gap: 40px;
+}
+
+.titre_hero_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre_hero_about h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 60px;
+    font-style: medium;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.titre_hero_about p {
+    color: #767799;
+    font-family: "Inter", sans-serif;
+    width: 765px;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.divs_hero_about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.divs_hero_about div {
+    width: 380px;
+    height: 682px;
+    border: 1px solid white;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.divs_hero_about div button {
+    width: 72px;
+    height: 66px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+}
+
+.div1_hero {
+    background-image: url("../images/1hero_about.png");
+    color: #ffffff;
+}
+
+.div1_hero h6 {
+    font-size: 17px;
+    font-family: sans-serif;
+    position: relative;
+    top: -50px;
+}
+
+.div1_hero p {
+    color: #babac4;
+    position: relative;
+    right: 105px;
+    top: -30px;
+}
+
+.div2_hero {
+    background-image: url("../images/2hero_about.png");
+    color: #ffffff;
+}
+
+.div2_hero h6 {
+    font-size: 17px;
+    font-family: sans-serif;
+    position: relative;
+    top: -50px;
+}
+
+.div2_hero p {
+    color: #babac4;
+    position: relative;
+    right: 105px;
+    top: -30px;
+}
+
+.div3_hero {
+    background-image: url("../images/3hero_about.png");
+    color: #ffffff;
+}
+
+.div3_hero h6 {
+    font-size: 17px;
+    font-family: sans-serif;
+    position: relative;
+    top: -50px;
+}
+
+.div3_hero p {
+    color: #babac4;
+    position: relative;
+    right: 105px;
+    top: -30px;
+}
+/*******************main about******************/
