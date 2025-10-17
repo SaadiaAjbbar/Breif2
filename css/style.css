@@ -563,7 +563,7 @@ header button a {
 .main_about {
     position: relative;
     top: 200px;
-    margin-bottom:200px ;
+    margin-bottom: 200px;
 }
 
 .titre_main_about {
@@ -667,4 +667,155 @@ header button a {
     display: flex;
     justify-content: space-around;
     gap: 20px;
+}
+
+/**************************** PAGE SIGN IN**********************************/
+
+.container_signin {
+    width: 709px;
+    height: 700px;
+    border: 1px solid #C23893;
+    margin-bottom: 300px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    border-radius: 12px;
+
+}
+
+.container_signin h1 {
+
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container_signin form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.container_signin form label {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: medium;
+    font-style: medium;
+    font-size: 32px;
+    position: relative;
+    left: -230px;
+}
+
+.container_signin form input {
+    width: 600px;
+    color: #988BE2;
+    font-size: 16px;
+    border: 1px solid #C23893;
+    background-color: rgba(0, 0, 0, 0);
+    height: 80px;
+    border-radius: 10px;
+}
+
+.container_signin form button {
+    color: #ffffff;
+    width: 400px;
+    background-color: #162446;
+    height: 80px;
+    border: 1px solid rgba(red, green, blue, 0);
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: medium;
+    font-style: medium;
+    font-size: 40px;
+}
+
+.container_signin form p a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-style: medium;
+    font-size: 20px;
+}
+
+/************************** PAGE SIGN UP ********************************/
+.container_signup {
+    width: 709px;
+    height: 1200px;
+    border: 1px solid #C23893;
+    margin-bottom: 300px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    border-radius: 12px;
+
+}
+
+.container_signup h1 {
+
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container_signup form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.container_signup form label {
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: medium;
+    font-style: medium;
+    font-size: 32px;
+    position: relative;
+    left: -230px;
+}
+
+.container_signup form input {
+    width: 600px;
+    border: 1px solid #C23893;
+    background-color: rgba(0, 0, 0, 0);
+    height: 80px;
+    border-radius: 10px;
+    color: #988BE2;
+    font-size: 16px;
+}
+
+.container_signup form button {
+    color: #ffffff;
+    width: 400px;
+    background-color: #162446;
+    height: 80px;
+    border: 1px solid rgba(red, green, blue, 0);
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: medium;
+    font-style: medium;
+    font-size: 40px;
+}
+
+.container_signup form p a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-style: medium;
+    font-size: 20px;
 }
