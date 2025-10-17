@@ -174,6 +174,7 @@ header button a {
     margin-bottom: 5px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 200px;
 }
 
 .tree_main div {
@@ -272,6 +273,7 @@ header button a {
 .main_events {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .titre_main_events {
@@ -555,4 +557,114 @@ header button a {
     right: 105px;
     top: -30px;
 }
+
 /*******************main about******************/
+
+.main_about {
+    position: relative;
+    top: 200px;
+    margin-bottom:200px ;
+}
+
+.titre_main_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.titre_main_about h6 {
+    color: #962F79;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.titre_main_about h1 {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.titre_main_about p {
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    color: #767799;
+    margin-bottom: 30px;
+}
+
+.img_main_about {
+    width: 100%;
+}
+
+.img_main_about img {
+    width: 100%;
+}
+
+
+/*********************** FOOTER ***************************/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.links_footer {
+    height: 363px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links_footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+.links_footer ul span {
+    color: #C23893;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.links_footer ul li {
+    color: #12132A;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.icons_footer {
+    height: 100px;
+    background-color: #C23893;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.list_icons_footer {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
